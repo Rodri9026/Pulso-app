@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "PULSO — Registro de entrenamiento",
+  "short_name": "PULSO",
+  "description": "Registra pesas, cardio, rutinas, medidas y tu progreso sin conexión.",
+  "lang": "es-CL",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080b0d",
+  "theme_color": "#080b0d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {"src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

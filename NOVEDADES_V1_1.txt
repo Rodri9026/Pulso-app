@@ -1,0 +1,12 @@
+PULSO v1.1 — Integración gratuita con Apple Salud
+==================================================
++ Importar historial de peso, porcentaje de grasa y cintura desde export.zip / export.xml.
++ Gráficos con intervalo 3 meses, 12 meses o todo el historial.
++ Registros históricos paginados (Ver fechas anteriores).
++ Deduplicación: importar varias veces no duplica fechas de Salud.
++ Conserva mediciones manuales, rutinas, cardio y entrenamientos.
++ Procesamiento local/offline y privacidad sin servidores.
+
+NO ES UNA SINCRONIZACIÓN EN TIEMPO REAL: para obtener nuevas mediciones hay que repetir la exportación desde Salud.
+
+Para actualizar PULSO publicado: primero exportar copia de seguridad JSON; luego reemplazar los archivos en el mismo repositorio / URL HTTPS. No cambies la URL de la PWA si quieres conservar el almacenamiento local.

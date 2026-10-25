@@ -1,0 +1,10 @@
+PULSO v1.2
+- Sincronización opcional con datos de Salud mediante Atajos de Apple.
+- Cloudflare Worker + D1: endpoints autenticados separados para lectura/escritura.
+- PWA: ajustes seguros de conexión, consulta al abrir y botón sincronizar.
+- Historial local y entrenamientos conservados; soporte offline intacto.
+- Dos modos del mismo Atajo: manual y programado diariamente.
+- Importación de XML/ZIP y exportación JSON mantienen sus funciones.
+- Incluye guía de despliegue, privacidad y pruebas automáticas del backend.
+- La automatización y Cloudflare deben ser configuradas por el usuario:
+  no se han instalado servicios en su cuenta desde esta entrega.

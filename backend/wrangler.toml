@@ -1,0 +1,15 @@
+name = "pulso-sync-personal"
+main = "worker.mjs"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[vars]
+# IMPORTANT: Replace the example with your exact PULSO GitHub Pages origin,
+# e.g. https://example.github.io (NO path /pulso-app and NO trailing slash).
+ALLOWED_ORIGIN = "https://TU-USUARIO.github.io"
+
+# After creating D1, copy the actual database_id from Wrangler output.
+[[d1_databases]]
+binding = "DB"
+database_name = "pulso-medidas"
+database_id = "REEMPLAZAR-CON-ID-DE-D1"

@@ -1,0 +1,21 @@
+PULSO v1.2 — INSTALACIÓN + APPLE SALUD POR ATAJOS
+================================================
+
+1) Exporta antes un respaldo JSON de PULSO v1.1.
+2) Reemplaza los archivos estáticos de tu repositorio GitHub Pages
+   con los nuevos archivos index.html, app.js, styles.css,
+   service-worker.js, health-import-worker.js, manifest.webmanifest,
+   .nojekyll, icons/ y vendor/. Conserva la MISMA URL.
+3) Abre la PWA con internet en Safari para instalar la actualización.
+4) En tu computador, configura el servicio Cloudflare Worker + D1
+   con las instrucciones de README.md (carpeta backend/).
+5) En PULSO > Ajustes, escribe la URL de Cloudflare y READ_TOKEN.
+6) En Atajos del iPhone, crea «Sincronizar PULSO» conforme a
+   ATAJOS_IPHONE_PASO_A_PASO.md usando WRITE_TOKEN.
+7) Prueba con un toque, pulsa Sincronizar ahora en PULSO y mira Progreso.
+8) Atajos > Automatización > Hora del día > Diariamente > Ejecutar atajo.
+
+Limitaciones: la PWA no lee HealthKit directamente; Atajos puede no
+leer Salud estando bloqueado; el Worker aloja peso y grasa en Cloudflare.
+No se envían los entrenamientos. No incluye un archivo .shortcut instalado:
+es necesario crearlo en el iPhone siguiendo las instrucciones.
